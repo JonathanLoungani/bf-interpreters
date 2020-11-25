@@ -6,7 +6,7 @@ Copy the starter code into a new file called `brainfuck.py` and implement the `e
 
 Usage: `python brainfuck.py <program_file_path> <optional_input>`
 
-To test your implementation, run `./test_brainfuck.sh`. You may have to add execution priviliges with `chmod +x test_brainfuck.sh` first.
+To test your implementation, run `./test.sh brainfuck`. You may have to add execution priviliges with `chmod +x test.sh` first.
 
 ### Tips
 
@@ -20,3 +20,5 @@ To test your implementation, run `./test_brainfuck.sh`. You may have to add exec
 Copy the starter code into a new file called `befunge.py` and implement the `evaluate` function.
 
 Usage: `python befunge.py <program_file_path> <optional_input>`
+
+To test your implementation, run `./test.sh befunge`. Note: the tests for befunge are less exhaustive than those for brainfuck. You may want to add your own.
