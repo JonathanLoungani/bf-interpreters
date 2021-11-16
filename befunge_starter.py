@@ -38,7 +38,6 @@ def evaluate(program, user_input):
    # While the program hasn’t terminated, execute the next instruction.
 
 
-
 if len(sys.argv) < 2:
     raise ValueError("Too few arguments: Proper usage is `python befunge.py <program_file_path> <optional_input>`")
 
