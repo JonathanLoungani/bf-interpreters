@@ -42,7 +42,11 @@ def evaluate(program, user_input):
     ### Replace With Your Code ###
     print(program, user_input)
 
+   # Initialize whatever you need to represent the state
 
+   # While the program hasn’t terminated, execute the next instruction.
+
+    
 if len(sys.argv) < 2:
     raise ValueError("Too few arguments: Proper usage is `python brainfuck.py <program_file_path> <optional_input>`")
 
